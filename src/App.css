@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pipe {
+  background: rgb(51, 50, 50);
+  width: 25px;
+  height: 150px;
+}
+.traffic_ligth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(51, 50, 50);
+  color: rgb(235, 233, 124);
+  width: 160px;
+  height: 430px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid rgb(5, 5, 5);
+  gap: 5px;
+  cursor: pointer;
+}
+
+.red,
+.yellow,
+.green {
+  background: red;
+  width: 140px;
+  height: 200px;
+  border-radius: 100%;
+  opacity: 0.6;
+}
+.yellow {
+  background: yellow;
+}
+.green {
+  background: green;
+}
+.ligth {
+  box-shadow: 0 0 20px 10px currentColor;
+  opacity: 1;
+  filter: brightness(150%);
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 20px;
+  background: green;
+  color: white;
+  font-size: medium;
+  border-radius: 10px;
+  cursor: pointer;
+}
