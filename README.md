@@ -15,19 +15,27 @@ Este es un proyecto simple de un semáforo creado con React y CSS. El semáforo 
 
 1. Clona el repositorio:
 
-`git clone https://github.com/edwinmoreno77/Traffic_ligth_.git`
+```
+git clone https://github.com/edwinmoreno77/Traffic_ligth_.git
+```
 
 2. Navega al directorio del proyecto:
 
-`cd Traffic_ligth_`
+```
+cd Traffic_ligth_
+```
 
 3. Instala las dependencias:
 
-`npm install`
+```
+npm install
+```
 
 4. inicia el servidor de desarrollo:
 
-`npm run dev`
+```
+npm run dev
+```
 
 5. Abre tu navegador y visita http://localhost:3000 para ver el proyecto en acción.
 
